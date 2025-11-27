@@ -150,7 +150,7 @@ fn main() {
         let view = parse_json(&json_str).unwrap();
         views.push(view);
     }
-    println!("\n{} images downloaded. Descrabling...", imgs.len());
+    println!("\n{} images downloaded. Descrambling...", imgs.len());
 
     // Descramble the images
     let mut descrambled_imgs: Vec<image::RgbaImage> = Vec::new();
